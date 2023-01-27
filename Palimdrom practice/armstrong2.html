@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARMSTRONG WITH LOOP</title>
+</head>
+<body>
+    <script>
+
+        var num = prompt("please enter a number");
+        var len = num.length 
+        var tem = num;
+        var sum = 0;
+
+        // [1,2,3,4,5,6,7,8,9,153,370,371,407,1634,8208,9474,
+        // 54748,92727,93084,548834,1741725,4210818,9800817,
+        // 9926315,24678050,24678051,88593477,146511208,
+        // 472335975,534494836,912985153,4679307774,
+        // 32164049650,32164049651]
+
+        while(num != 0){
+        
+            rem = num%10
+            sum += rem**len
+            num = parseInt(num/10)
+        }
+
+        if(tem==sum){
+           document.write("NUMBER IS ARMSTRONG!")
+        }
+
+        else{
+            document.write("NOT ARMSTRONG!")
+        }
+
+
+        // var num = prompt("please enter a number"); 
+        // var tem = num;
+        // var sum = 0;
+
+        // // check this is armstrong 32164049650
+
+        // while(num > 0){
+
+        //     rem = num%10
+        //     sum += rem**11    //(** = exponentiation)
+        //     num = parseInt(num/10)
+            
+        // }
+        // if(tem==sum){
+        //    document.write("NUMBER IS ARMSTONG!")
+        // }
+        // else{
+        //     document.write("NOT ARMSTONG!")
+        // }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMALLER NO</title>
+</head>
+<body>
+    <script>
+        var a = 12;
+        var b = 14;
+        var c = 17;
+        var d = 8;
+        var e = 19;
+        var f = 25;
+        var g = 30;
+ 
+if(a<g && a<f && a<e){
+    if(a<b && a<c && a<d){
+        document.write("A IS SMALLER");
+    }
+    else{
+        if(b<a && b<c && b<d){
+            if(b<g && b<f && b<e){
+                document.write("B IS SMALLER");
+            }
+            else{
+                document.write("B IS NOT SMALLER");
+            }
+        }
+        else{
+            if(c<g && c<f && c<e){
+                if(c<a && c<b && c<d){
+                    document.write("C IS SMALLER");
+                }
+                else{
+                    if(e<g && e<f && e<d){
+                        if(e<a && e<b && e<c){
+                            document.write("E IS SMALLER");
+                        }
+                        else{
+                            document.write("E IS NOT SMALLER");
+                        }
+                    }
+                    else{
+                       if(f<g && f<e && f<d){
+                           if(f<a && f<b && f<c){
+                            document.write("F IS SMALLER");
+                           }
+                           else{
+                            document.write("F IS NOT SAMLLER");
+                           }
+                       }
+                       else{
+                          if(g<f && g<e && f<d){
+                            if(g<a && g<b && g<c){
+                                document.write("G IS SMALLER");
+                            }
+                            else{
+                                document.write("G IS NOT SAMLLER");
+                            }
+                          }
+                          else{
+                            if(d<g && d<f && d<e){
+                                if(d<a && d<b && d<c){
+                                    document.write("D IS SMALLER");
+                                }
+                            }        
+                          }
+                       }
+                    }
+                }
+            }
+            else{
+                document.write("NOTHING");
+            }
+        }
+    }
+}
+else{
+    document.write("ALL NUMBER IS FALSE");
+}
+    </script>
+</body>
+</html>

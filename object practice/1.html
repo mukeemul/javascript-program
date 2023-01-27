@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT PRACTICE 1</title>
+</head>
+<body>
+    <h3>THIS IS THE FIRST METHOD TO CREATE AN OBJECT</h3>
+    <p>HOW TO CALLED A VALUE FROM AN OBJECT & THROUGH OUT OF THE FUNCTION</p>
+    <script>
+
+        var a = {
+            fname: "shaan",
+            lname: "raza",
+            age: 22,
+            favmovie: ["dhoom", "sholay", "mukkabaz"],
+            salry: function(){
+                return 40000;
+            },
+            pack: function(){
+                return this.fname + " " + "ho gya aapka";  //the this keyword refers to an object
+            }
+        }
+        
+
+        console.log(a);   // WE CAN PRINT THE TWO VALUE WITH THE HELP OF CONCATINATION
+        document.write(a.salry() + " " + a.pack());  
+    </script>
+</body>
+</html>

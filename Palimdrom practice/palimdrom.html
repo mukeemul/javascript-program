@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALINDROME NUMBER</title>
+</head>
+<body>
+    <script>
+
+        var a = 151;
+        var tem = a;
+        var ln = tem%10;
+        var tem = tem/10
+        var sn = tem%10;
+        var temp = tem/10;
+        var fn = tem;
+
+        var sum = (ln*100 + sn*5 + fn);
+        var sum = (1*100 + 5*10 + 1);
+        var sum = ( 100 + 50 + 1);
+        var sum = (151);
+  
+        if(a==sum){
+            document.write("NUMBER IS PALINDROME!");
+        }
+        else{
+            document.write("NOT PALINDROME!");
+        }
+
+    
+    </script>
+</body>
+</html>

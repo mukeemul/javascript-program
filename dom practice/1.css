@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 99.5%;
+    margin: auto;
+    padding: 0;
+}
+#header{
+    background-color: rgb(250, 247, 48);
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 5px 5px;
+}
+.menu{
+    background: rgb(140, 117, 255);
+    color: aliceblue;
+    margin-top: 7px;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 7px 0 0 5px;
+}
+ul li a{
+    text-decoration: none;
+}

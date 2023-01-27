@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT PRACTICE 4</title>
+</head>
+<body>
+    <script>
+        
+        // SELF PRACTICE
+
+        var a = {
+            fname: "shaan",
+            lname: "raza",
+            age: 20,
+            movie: [
+                "dhoom", "kantara", "subh mangal savdhan"
+            ],
+            hey: function(){
+                return "ye movie dekho";
+            },
+            bull: function(){
+                return this.age + " " + "something is better than nothing";
+            }
+        }
+        var b = {
+            mname: "kumar",
+            far: "cool",
+        }
+        
+        console.log(a);
+        document.write(a.hey() + " <br/> " + a.bull());
+        document.write("<br/>");
+        document.write(b.far + " <br/> " + a.hey());
+
+    </script>
+</body>
+</html>
